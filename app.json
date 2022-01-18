@@ -1,4 +1,5 @@
 {
+  {
   "name": "𝙋𝙎𝙔𝘾𝙃𝙊 𝙓 𝙄𝙍𝙄𝙎",
   "logo": "https://telegra.ph/file/f9665e25fec670c1782b9.jpg",
   "description": "Telegram's best group manager. Telegram group management bot!",
@@ -32,7 +33,7 @@
     },
     "MESSAGE_DUMP": {
       "description": "optional: a chat where your replied saved messages are stored, to stop people deleting their old",
-      "value": "-1001537422645
+      "value": "-1001537422645"
     },
     "SUDO_USERS": {
       "description": "A space separated list of user_ids which should be considered sudo users",
