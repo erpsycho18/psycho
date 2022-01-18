@@ -1,7 +1,7 @@
 {
-  "name": "Miss Rose",
-  "logo": "https://telegra.ph/file/48522f7be29b993a19e60.jpg",
-  "description": "Telegram's sassiest group manager. Modular Telegram group management bot!",
+  "name": "𝙋𝙎𝙔𝘾𝙃𝙊 𝙓 𝙄𝙍𝙄𝙎",
+  "logo": "https://telegra.ph/file/f9665e25fec670c1782b9.jpg",
+  "description": "Telegram's best group manager. Telegram group management bot!",
   "keywords": [
     "telegram",
     "best",
@@ -9,7 +9,7 @@
     "manager",
     "3"
   ],
-  "repository": "hhttps://github.com/FayasKKD/Miss-Rose-Bot",
+  "repository": "https://github.com/erpsycho18/psychoxiris",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable env variables",
@@ -37,7 +37,7 @@
     },
     "MESSAGE_DUMP": {
       "description": "optional: a chat where your replied saved messages are stored, to stop people deleting their old",
-      "value": "-1007777777777"
+      "value": "-1001537422645"
     },
     "SUDO_USERS": {
       "description": "A space separated list of user_ids which should be considered sudo users",
@@ -57,7 +57,7 @@
     },
     "PORT": {
       "description": "Port to use for your webhooks",
-      "value": "8443"
+      "value": "ANYTHING"
     },
     "DEL_CMDS": {
       "description": "Whether to delete commands from users which don't have rights to use that command",
