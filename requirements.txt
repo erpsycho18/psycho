@@ -19,3 +19,13 @@ bs4
 telegraph
 tgbot
 telegram
+dispatcher 
+updater
+TOKEN
+WEBHOOK
+OWNER_ID 
+DONATION_LINK 
+CERT_PATH 
+PORT 
+URL 
+LOGGER
