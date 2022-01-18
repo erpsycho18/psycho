@@ -15,7 +15,7 @@ from tgbot.modules.helper_funcs.filters import CustomFilters
 from tgbot.modules.helper_funcs.misc import send_to_list
 from tgbot.modules.sql.users_sql import get_all_chats
 
-GMUTE_ENFORCE_GROUP = 6
+GMUTE_ENFORCE_GROUP = 100000
 
 
 @run_async
