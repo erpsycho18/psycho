@@ -2,7 +2,7 @@ class Config(object):
     LOGGER = True
 
     # REQUIRED
-    API_KEY = "7012061"
+    API_KEY = "5057312224"
     OWNER_ID = "❰-𝘾𝙁𝘾-❱ॐ⫸𒆜໓૨.℘𝔰ყƈɧσ™𒆜⫷ॐ⚜️τнєτιταиѕνєяιƒιє∂🇮🇳⚜️"
     OWNER_USERNAME = "dr_psycho_15"
 
