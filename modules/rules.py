@@ -6,10 +6,10 @@ from telegram.error import BadRequest
 from telegram.ext import CommandHandler, run_async, Filters
 from telegram.utils.helpers import escape_markdown
 
-import tg_bot.modules.sql.rules_sql as sql
-from tg_bot import dispatcher
-from tg_bot.modules.helper_funcs.chat_status import user_admin
-from tg_bot.modules.helper_funcs.string_handling import markdown_parser
+import tgbot.modules.sql.rules_sql as sql
+from tgbot import dispatcher
+from tgbot.modules.helper_funcs.chat_status import user_admin
+from tgbot.modules.helper_funcs.string_handling import markdown_parser
 
 
 @run_async
@@ -100,7 +100,7 @@ __help__ = """
  - /clearrules: clear the rules for this chat.
 """
 
-__mod_name__ = "Rules"
+__mod_name__ = Rules"""
 
 GET_RULES_HANDLER = CommandHandler("rules", get_rules, filters=Filters.group)
 SET_RULES_HANDLER = CommandHandler("setrules", set_rules, filters=Filters.group)
@@ -109,3 +109,48 @@ RESET_RULES_HANDLER = CommandHandler("clearrules", clear_rules, filters=Filters.
 dispatcher.add_handler(GET_RULES_HANDLER)
 dispatcher.add_handler(SET_RULES_HANDLER)
 dispatcher.add_handler(RESET_RULES_HANDLER)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
