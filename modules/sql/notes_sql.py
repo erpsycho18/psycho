@@ -2,8 +2,8 @@ import threading
 
 from sqlalchemy import Column, String, Boolean, UnicodeText, Integer, func, distinct
 
-from tg_bot.modules.helper_funcs.msg_types import Types
-from tg_bot.modules.sql import SESSION, BASE
+from tgbot.modules.helper_funcs.msg_types import Types
+from tgbot.modules.sql import SESSION, BASE
 
 
 class Notes(BASE):
