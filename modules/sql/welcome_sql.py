@@ -2,8 +2,8 @@ import threading
 
 from sqlalchemy import Column, String, Boolean, UnicodeText, Integer, BigInteger
 
-from tg_bot.modules.helper_funcs.msg_types import Types
-from tg_bot.modules.sql import SESSION, BASE
+from tgbot.modules.helper_funcs.msg_types import Types
+from tgbot.modules.sql import SESSION, BASE
 
 DEFAULT_WELCOME = "╾─────────────────────────────╼ \n👋 Hello, Dear {first} 🤩 \n╾─────────────────────────────╼ \n💞 🅆🄴🄻🄲🄾🄼🄴 To the Group {title} \n╾─────────────────────────────╼ \nName : {fullname} \n╾─────────────────────────────╼ \nUser Name : {mention} \n╾─────────────────────────────╼ \nUser ID : {userid}👋 \n╾─────────────────────────────╼ \n"
 DEFAULT_GOODBYE = "Nice knowing ya!"
