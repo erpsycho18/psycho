@@ -3,8 +3,8 @@ from telegram.ext import Filters, MessageHandler, run_async
 
 from requests import get
 
-from tg_bot.modules.disable import DisableAbleCommandHandler
-from tg_bot import dispatcher
+from tgbot.modules.disable import DisableAbleCommandHandler
+from tgbot import dispatcher
 
 base_url = ''
 api_key = ''
