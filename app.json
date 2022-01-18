@@ -20,7 +20,7 @@
     },
     "OWNER_USERNAME": {
       "description": "Your username",
-      "value": ""
+      "value": "dr_psycho_15"
     },
     "MESSAGE_DUMP": {
       "description": "optional: a chat where your replied saved messages are stored, to stop people deleting their old",
