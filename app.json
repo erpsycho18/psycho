@@ -11,14 +11,6 @@
     "managementbot"
   ],
   "env": {
-    "API_ID": {
-            "description": "your API_ID from my.telegram.org",
-            "required": true
-    },
-    "API_HASH": {
-            "description": "your API_HASH from my.telegram.org",
-            "required": true
-    },
     "TOKEN": {
       "description": "Your bot token, as a string.",
       "value": ""
