@@ -12,10 +12,10 @@ from telegram import Message, Chat, Update, Bot, MessageEntity
 from telegram import ParseMode
 from telegram.ext import CommandHandler, run_async, Filters
 from telegram.utils.helpers import escape_markdown, mention_html
-from tg_bot import dispatcher
-from tg_bot.__main__ import STATS
-from tg_bot.modules.disable import DisableAbleCommandHandler
-from tg_bot.modules.helper_funcs.extraction import extract_user
+from tgbot import dispatcher
+from tgbot.__main__ import STATS
+from tgbot.modules.disable import DisableAbleCommandHandler
+from tgbot.modules.helper_funcs.extraction import extract_user
 
 def tts(bot: Bot, update: Update, args):
     current_time = datetime.strftime(datetime.now(), "%d.%m.%Y %H:%M:%S")
@@ -37,3 +37,4 @@ def tts(bot: Bot, update: Update, args):
         update.message.reply_voice(speech, quote=False)
 
 dispatcher.add_handler(CommandHandler('tts', tts, pass_args=True))
+
