@@ -1,5 +1,4 @@
 {
-  {
   "name": "𝙋𝙎𝙔𝘾𝙃𝙊 𝙓 𝙄𝙍𝙄𝙎",
   "logo": "https://telegra.ph/file/f9665e25fec670c1782b9.jpg",
   "description": "Telegram's best group manager. Telegram group management bot!",
@@ -58,21 +57,19 @@
   },
   "addons": [
    "buildpacks": [
-   {
-            "url": "heroku/python"
-   },
-   {
-            "url": "heroku/nodejs"
-   },
-   {
-            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
-   }
- ],
-    "formation": {
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-python"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    }
+   ],  
+   "formation": {
         "worker": {
             "quantity": 1,
             "size": "free"
         }
-    },
-    "stack": "container"
+   },
+   "stack": "container"
+  ]
 }
