@@ -1,8 +1,8 @@
 from telegram import Update, Bot
 from telegram.ext import run_async
 
-from tg_bot.modules.disable import DisableAbleCommandHandler
-from tg_bot import dispatcher
+from tgbot.modules.disable import DisableAbleCommandHandler
+from tgbot import dispatcher
 
 from requests import get
 
