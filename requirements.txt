@@ -19,7 +19,8 @@ bs4
 telegraph
 tgbot
 telegram
-dispatcher 
+dispatcher
 updater
 TOKEN
-
+tgbot.dispatcher
+tgbot.updater
