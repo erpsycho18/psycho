@@ -2,8 +2,8 @@ import importlib
 import re
 from typing import Optional, List
 
-import dispatcher
-import updater
+import telegram.ext.dispatcher
+import telegram.ext.Updater
 
 from telegram import Message, Chat, Update, Bot, User
 from telegram import ParseMode, InlineKeyboardMarkup, InlineKeyboardButton
