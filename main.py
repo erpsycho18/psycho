@@ -14,8 +14,8 @@ import dispatcher, updater, TOKEN, WEBHOOK, OWNER_ID, DONATION_LINK, CERT_PATH, 
 # needed to dynamically load modules
 # NOTE: Module order is not guaranteed, specify that in the config file!
 from tgbot.modules import ALL_MODULES
-from tgbot.modules.helper_funcs.chat_status import is_user_admin
-from tgbot.modules.helper_funcs.misc import paginate_modules
+from tgbot.modules.helper_functions.chat_status import is_user_admin
+from tgbot.modules.helper_functions.misc import paginate_modules
 
 PM_START_TEXT = """
 Hey there! My name is *{}*, I'm here to help you manage your groups! Hit /help to find out more about how to use me to my full potential.
