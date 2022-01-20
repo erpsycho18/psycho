@@ -3,7 +3,7 @@ import re
 from typing import Optional, List
 
 import telegram.ext.dispatcher
-import telegram.ext.Updater
+import telegram.ext.updater
 
 from telegram import Message, Chat, Update, Bot, User
 from telegram import ParseMode, InlineKeyboardMarkup, InlineKeyboardButton
